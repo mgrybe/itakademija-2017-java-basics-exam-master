@@ -158,7 +158,7 @@ public class GradeEvaluatingRunner extends BlockJUnit4ClassRunner {
             }
 
             printLine("");
-            printLine(" SCORE: %s, TOTAL POINTS: %s", scoredGrade, totalGrade.toPlainString());
+            printLine(" SCORE: %s/%s", scoredGrade, totalGrade.toPlainString());
             printLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         }
 

@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
+/**
+ * Provides currency exchange rates.
+ */
 public final class CurrencyRatesProvider {
 
     private final Map<CurrencyPair, Money> currencyPairToRatesMap;

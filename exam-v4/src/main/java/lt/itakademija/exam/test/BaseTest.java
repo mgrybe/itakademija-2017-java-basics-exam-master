@@ -32,8 +32,21 @@ public abstract class BaseTest {
 
     private CurrencyConverter currencyConverter;
 
+    /**
+     * Creates a bank object using the instance of {@link CurrencyConverter} that is
+     * provided in {@link #createCurrencyConverter(CurrencyRatesProvider)}.
+     *
+     * @param currencyConverter currency converter
+     * @return bank
+     */
     protected abstract Bank createBank(CurrencyConverter currencyConverter);
 
+    /**
+     * Creates a {@link CurrencyConverter} instance which uses passed in {@link CurrencyRatesProvider}.
+     *
+     * @param ratesProvider
+     * @return
+     */
     protected abstract CurrencyConverter createCurrencyConverter(CurrencyRatesProvider ratesProvider);
 
     @BeforeClass
@@ -190,7 +203,7 @@ public abstract class BaseTest {
 
     @Test
     @ExamTask(grade = 0.25)
-    public final void createCurrencyConverter() {
+    public final void createsCurrencyConverter() {
         assertThat(this.currencyConverter, notNullValue());
     }
 

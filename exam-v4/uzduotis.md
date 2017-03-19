@@ -46,7 +46,7 @@ Programos atitikimas `lt.itakademija.exam.test.BaseTest` klasėje apibrėžtiems
 
 Vadovaukitės iš testų gaunama informacija, bei javadoc aprašymu.
 
-Kiekvieną kartą paleidus testą, konsolėje pamatysite užduoties įvykdymo statusą:
+Kiekvieną kartą paleidus testą, konsolėje pamatysite užduoties įvykdymo būseną:
 
 ```
 *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ RESULTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
@@ -55,6 +55,10 @@ Kiekvieną kartą paleidus testą, konsolėje pamatysite užduoties įvykdymo st
 *    Status: PASSED                                                                                          *
 *                                                                                                            *
 * Task: 'Throws insufficient funds exception if debit account lacks money'                                   *
+*    Grade: '0.25                                                                                            *
+*    Status: PASSED                                                                                          *
+*                                                                                                            *
+* Task: 'Creates currency converter'                                                                         *
 *    Grade: '0.25                                                                                            *
 *    Status: PASSED                                                                                          *
 *                                                                                                            *
@@ -71,10 +75,6 @@ Kiekvieną kartą paleidus testą, konsolėje pamatysite užduoties įvykdymo st
 *    Status: PASSED                                                                                          *
 *                                                                                                            *
 * Task: 'Throws currency conversion exception if unable to convert currency pair'                            *
-*    Grade: '0.25                                                                                            *
-*    Status: PASSED                                                                                          *
-*                                                                                                            *
-* Task: 'Create currency converter'                                                                          *
 *    Grade: '0.25                                                                                            *
 *    Status: PASSED                                                                                          *
 *                                                                                                            *
@@ -103,7 +103,7 @@ Kiekvieną kartą paleidus testą, konsolėje pamatysite užduoties įvykdymo st
 *    Status: PASSED                                                                                          *
 *                                                                                                            *
 *                                                                                                            *
-* SCORE: 9.00, TOTAL POINTS: 9.00                                                                            *
+* SCORE: 9.00/9.00                                                                                           *
 *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
 ```
 
